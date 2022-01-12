@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   connect:
     image: debezium/connect-with-oracle-jdbc:${DEBEZIUM_VERSION}
