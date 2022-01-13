@@ -8,7 +8,7 @@ services:
         DEBEZIUM_VERSION: ${DEBEZIUM_VERSION}
     container_name: connector-oracle
     ports:
-     - 8083:8083
+     - 8084:8083
     environment:
      - BOOTSTRAP_SERVERS=${EH_NAME}.servicebus.windows.net:9093
      - GROUP_ID=oracle-dev
